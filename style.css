@@ -1,3 +1,7 @@
+@font-face {
+  font-family: test;
+  src: url(dpcomic.ttf);
+}
 footer
 {
     background-color: tomato;
@@ -5,6 +9,7 @@ footer
 header
 {
     background-color: yellowgreen;
+    font-family: test;
 }
 
 
