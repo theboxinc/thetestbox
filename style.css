@@ -16,9 +16,6 @@ header
   width: 350px;
   height: 200px;
   outline: dashed 1px black;
+  margin: 0 auto;
 }
 
-p {
-  /* Center horizontally*/
-  text-align: center;
-}
