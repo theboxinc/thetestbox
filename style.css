@@ -2,6 +2,10 @@
   font-family: test;
   src: url(dpcomic.ttf);
 }
+body
+{
+    cursor: url('Win95Def.png'), auto;
+}
 footer
 {
     background-color: tomato;
