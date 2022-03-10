@@ -5,6 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Win95';
+  src: url('w95fa.woff2') format('woff2'),
+  url('w95fa.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 body
 {
     cursor: url('Win95Def.png'), auto;
