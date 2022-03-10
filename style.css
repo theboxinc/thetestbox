@@ -1,21 +1,10 @@
-section
+footer
 {
-    background-color:#COCOCO;
-    width: 60%;
-    margin-right:auto;
-    margin-left:auto;
+    background-color:tomato;
 }
 header
 {
     background-color:powderblue;
 }
-.container {
-  font-family: arial;
-  font-size: 24px;
-  margin: 25px;
-  width: 350px;
-  height: 200px;
-  outline: dashed 1px black;
-  margin: 0 auto;
-}
+
 
