@@ -2,6 +2,13 @@
   font-family: test;
   src: url(dpcomic.ttf);
 }
+@font-face {
+  font-family: 'Sysfont';
+  src: url('sysfont.woff2') format('woff2'),
+  url('sysfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 body
 {
     cursor: url('Win95Def.png'), auto;
@@ -13,7 +20,7 @@ footer
 header
 {
     background-color: yellowgreen;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Sysfont;
 }
 
 
