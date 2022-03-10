@@ -1,8 +1,4 @@
 @font-face {
-  font-family: test;
-  src: url(dpcomic.ttf);
-}
-@font-face {
   font-family: 'Sysfont';
   src: url('sysfont.woff2') format('woff2'),
   url('sysfont.woff') format('woff');
