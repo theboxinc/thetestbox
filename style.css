@@ -27,5 +27,14 @@ header
     background-color: yellowgreen;
     font-family: Sysfont;
 }
+section {
+    background-color: #ccc;
+}
+aside {
+    background-color: orange;
+    width: 40%;
+    display: inline-block;
+    float: right;
+}
 
 
