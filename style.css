@@ -28,7 +28,7 @@ header
     font-family: Sysfont;
 }
 section {
-    background-color: #ccc;
+    background-color: gray;
 }
 aside {
     background-color: orange;
