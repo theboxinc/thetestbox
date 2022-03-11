@@ -27,15 +27,18 @@ header
     background-color: yellowgreen;
     font-family: Sysfont;
 }
-section {
-    background-color: blue;
-    width: 80%
-}
 aside {
-    background-color: orange;
-    width: 10%;
-    display: inline-block;
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
     float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
 }
 
 
