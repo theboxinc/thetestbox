@@ -17,6 +17,12 @@ body
     cursor: url('Win95Def.png'), auto;
     background-image: url('test2.jpg');
 }
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+}
 footer
 {
     background-color: tomato;
