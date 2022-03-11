@@ -29,6 +29,7 @@ header
 }
 section {
     background-color: blue;
+    width: 80%
 }
 aside {
     background-color: orange;
