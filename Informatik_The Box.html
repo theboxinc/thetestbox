@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html>
-<form action="Informatik_The Box.php" method="get">
-<label for="vorname">Name:</label>
-<input type="text" name="vorname" size="20" maxlength="30" id="vorname" />
+ <head>
+  <meta charset="UTF-8" />
+  <title>Beispielformular</title>
+</head>
+<body>
+<?php
+if (!isset($_GET["vorname"])) {
+?>
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="get">
+Ihr Vorname: <br />
+<input type="text" name="vorname" size="20" maxlength="30" />
 <br />
-<label for="nachname">Surname:</label>
-<input type="text" name="nachname" size="20" maxlength="30" id="nachname" />
+Ihr Nachname: <br />
+<input type="text" name="nachname" size="20" maxlength="30" />
 <br />
-<label for="e-mail">E-Mail:</label>
-<input type="text" name="e-mail" size="20" maxlength="30" id="e-mail" />
+E-Mail: <br />
+<input type="text" name="email" size="20" maxlength="30" />
 <br />
-<label for="phone number">Phone number:</label>
-<input type="text" name="phone number" size="20" maxlength="30" id="phone number" />
+Telefon: <br />
+<input type="text" name="telefon" size="20" maxlength="30" />
 <br />
-<input type="submit" value="Register" />
+<input type="submit" value="Abschicken" />
 </form>
- <?php
-if (isset($_GET["vorname"])) {
-echo "Ihre Eingaben<br />\n"
-. "Vorname: " . htmlspecialchars($_GET["vorname"])
-. "<br />\n Name: " . htmlspecialchars($_GET["nachname"])
-. "<br />\n";
+<?php
+} else {
+    echo "Ihre Eingaben<br />\n" 
+    . "Vorname: " . htmlspecialchars($_GET["vorname"]) 
+    . "<br />\n Name: " . htmlspecialchars($_GET["nachname"]) 
+    . "<br />\n E-Mail: " . htmlspecialchars($_GET["email"]) 
+    . "<br />\n Telefon: " . htmlspecialchars($_GET["telefon"]) 
+    . "<br />\n";
 }
 ?>
+
+</body>
 </html>
+
+
