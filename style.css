@@ -51,7 +51,10 @@ aside {
 .dropbtn {
   background-color: #04AA6D;
   color: white;
-  padding: auto;
+    padding-top: auto;
+  padding-bottom: auto;
+  padding-left: 16px;
+  padding-right: 16px;
   font-size: 16px;
   border: none;
 }
