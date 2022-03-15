@@ -1,4 +1,5 @@
-@font-face {
+
+    @font-face {
   font-family: 'Sysfont';
   src: url('sysfont.woff2') format('woff2'),
   url('sysfont.woff') format('woff');
@@ -27,10 +28,20 @@ footer
     background-color: tomato;
     font-family: Win95;
 }
+h1
+{
+	display: inline-flex;
+    margin-top: auto;  
+    margin-bottom: auto;
+    margin-left: 12px;
+}
 header
 {
     background-color: yellowgreen;
     font-family: Sysfont;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 aside {
     width: auto;
@@ -47,11 +58,12 @@ aside {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
 }
 .dropdown-content {
   display: none;
   position: absolute;
+  top: 100%;
   right: 0;
   background-color: #f1f1f1;
   min-width: 160px;
