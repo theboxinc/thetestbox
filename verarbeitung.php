@@ -2,23 +2,15 @@
 <html>
  <head>
   <meta charset="UTF-8" />
-  <title>Beispielformular</title>
+  <title>Verarbeitung Formulardaten</title> 
 </head>
 <body>
-<form action="verarbeitung.php" method="get">
-Name: <br />
-<input type="text" name="vorname" size="20" maxlength="30" />
-<br />
-Surname: <br />
-<input type="text" name="nachname" size="20" maxlength="30" /><br />
-E-Mail: <br />
-<input type="text" name="email" size="20" maxlength="30" />
-<br />
-Phone: <br />
-<input type="text" name="telefon" size="20" maxlength="30" />
-<br />
-<input type="submit" value="Register" />
-</form>
-
+<?php
+echo "Ihre Eingaben<br />\n";
+echo "Vorname: " . htmlspecialchars($_GET["vorname"]) . "<br />\n";
+echo "Name: " . htmlspecialchars($_GET["nachname"]) . "<br />\n";
+echo "E-Mail: " . htmlspecialchars($_GET["email"]) . "<br />\n";
+echo "Telefon: " . htmlspecialchars($_GET["telefon"]) . "<br />\n";
+?>
 </body>
 </html>
